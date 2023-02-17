@@ -3,7 +3,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Triangles {
+public class Triangles1 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("triangles.in"));
         PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("triangles.out")));

@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-public class AirCowditioning {
+public class AirCowditioning2 {
   private static int pointer1 = -1;
   private static int pointer2 = -1;
   private static boolean isPerfect = false;

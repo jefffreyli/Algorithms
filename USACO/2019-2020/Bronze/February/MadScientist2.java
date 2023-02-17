@@ -3,7 +3,7 @@
 import java.util.*;
 import java.io.*;
 
-public class MadScientist {
+public class MadScientist2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("breedflip.in"));
         PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("breedflip.out")));

@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-public class BirdSOSATRICI {
+public class BirdSOSatelliteRICI {
     private static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
