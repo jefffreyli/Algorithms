@@ -38,14 +38,11 @@ public class p3 {
 
       // int h,g,j = 0;
       for(int i = 0; i < q; i++){
-         int h = pSumHolstein[end[i]] - pSumHolstein[start[i]];
-         if(pSumHolstein[start[i]] !=0) h++;
+         int h = (pSumHolstein[0] - pSumHolstein[start[i]]) + (pSumHolstein[end[i]] - pSumHolstein[start[i]]);
 
          int g = pSumGuernseys[end[i]] - pSumGuernseys[start[i]];
-         if(pSumGuernseys[start[i]] !=0) g++;
 
          int j = pSumJerseys[end[i]] - pSumJerseys[start[i]];
-         if(pSumJerseys[start[i]] !=0) j++;
 
          pw.println(h + " " + g + " " + j);
       }
